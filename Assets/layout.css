@@ -1,0 +1,57 @@
+.hello{
+    display: block;
+}
+h1{
+    display: inline;
+}
+
+p{
+    display: inline-block;
+    /* width: 200px;
+    height: 200px; */
+}
+
+.hidden{
+    display: none;
+}
+.parent{
+    position: fixed;
+    /* fixed is used if youbdont want something to be moving around */
+}
+.btn{
+    position: fixed;
+}
+
+.relative{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    background-color: green;  
+    
+}
+.absolute{
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    /* top: 20px; */
+    /* bottom: 20px; */
+    left: 30px;
+}
+
+.fixed{
+background-color: red;
+width: 40px;
+height: 40px;
+position: fixed;
+top: 500px;
+
+}
+.sticky{
+    width: 200px;
+    height: 10px;
+    background-color: blue;
+    top: 70px;
+    z-index: 100;
+
+}

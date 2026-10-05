@@ -1,0 +1,394 @@
+/*  */
+
+.dropdown{
+  display: none;
+}
+.button{
+  /* background-color: hsl(0, 0%, 80%); */
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.dropdown a{
+    display: block;
+    font-size: medium;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.content{
+  display: none;
+  position: absolute;
+  /* background-color: hsl(0, 0%, 95%); */
+
+  background-color: black;
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsl(0, 0%, 0.8);
+}
+.dropdown:hover .content{
+  display: block;
+
+}
+.dropdown a:hover{
+  background-color: hsl(0, 0%, 70%);
+
+}
+/*  */
+*{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
+@font-face {
+    font-family: ayobami;
+    src: url(./Assets/BlackOpsOne-Regular.ttf);
+}
+.navbar{
+    width: auto;
+    height: 12vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-left: 30px;
+    font-family: ayobami;
+    font-size: 2rem;
+    
+
+}
+
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 445px;
+    
+}
+
+.text-decoration{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 1rem;
+    font-family: ayobami;
+    
+}
+
+.text-decoration:hover{
+  color: blue;
+    }
+
+.main{
+    background-color: rgba(0, 0, 0, 0.95);
+    height:70vh;
+    width: auto;
+    padding-left: 40px;
+    padding-top: 30px;
+    color: white;
+}
+
+.hello{
+    color: lightgrey;
+    font-style: normal;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.my-name{
+ font-size: 3rem;
+ letter-spacing: 0.2rem;
+ font-family: Arial, Helvetica, sans-serif;
+ font-style: normal;
+}
+
+.work{
+    font-family: ayobami;
+    font-size: 1.8rem;
+}
+
+.what_I_do{
+    font-size: 1.5rem;
+}
+
+.project_lead{
+    margin-top: 80px;
+    display: flex;
+    column-gap: 50px;
+}
+
+.view{
+    display: flex;
+    text-decoration: none;
+    border: 1px solid white;
+    width: 200px;
+    height: 50px;
+    padding-left: 20px;
+    /* align-content: center; */
+    align-items: center;
+    border-radius: 45px;
+    font-size: 1.2rem;
+    font-style: normal;
+    color: white;
+
+}
+
+.view:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.download_cv{
+    display: flex;
+    text-decoration: none;
+    border: 1px solid white;
+    width: 200px;
+    height: 50px;
+    padding-left: 20px;
+    align-items: center;
+    /* align-content: center; */
+    border-radius: 45px;
+    font-size: 1.2rem;
+    font-style: normal;
+    color: white;
+}
+
+.download_cv:hover{
+    background-color: white;
+    color: black;
+}
+
+.arrow{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.download_icon{
+    margin-top: 5px;
+    margin-left: 5px; 
+}
+
+.my_image{
+    width: 300px;
+    height: 400px;
+    border: 1px none red;
+    margin-left: 950px;
+    margin-top: -315px;
+    background-image: url(./Assets/my_first_image_project_trial.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+.my_image:hover{
+    animation-name: profile;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    /* animation-iteration-count: infinite; */
+    animation-delay: 0s;
+}
+
+@keyframes profile {
+    30%{
+        transform: translate(380px);
+    }
+
+    80%{
+        transform: scale(0.9);
+    }
+    
+}
+
+
+.first_footer{
+    align-content: center;
+    padding-top: 20px;
+    padding-left: 40px;
+    display: flex;
+    column-gap: 50px;
+    width: auto;
+    height: 15vh;
+    background-color: black;
+}
+
+/* .first_footer:hover{
+    color: blue;
+} */
+
+.email{
+   
+   width: 30px;
+   height: 50px;
+   text-decoration: none;
+}
+
+.email_link{
+    text-decoration: none;
+    color: white;
+}
+
+.phone_number{
+   width: 30px;
+   height: 50px;
+}
+
+.message{
+    width: 30px;
+   height: 50px;
+}
+
+/* SMALL SCREEN */
+
+.parent{
+    display: none;
+    width: auto;
+    height: 110vh;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    background-color: rgba(0, 0, 0, 0.90);
+    padding-top: 30px;
+    color: white;
+}
+
+.child{
+   border: none solid blue; 
+}
+
+.hello2{
+    padding-left: 40px;
+    color: lightgrey;
+    font-style: normal;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.my-name2{
+ padding-left: 40px;
+ font-size: 3rem;
+ letter-spacing: 0.2rem;
+ font-family: Arial, Helvetica, sans-serif;
+ font-style: normal;
+}
+
+.work2{
+    font-family: ayobami;
+    font-size: 1.8rem;
+    padding-left: 40px;
+}
+
+.what_I_do2{
+    padding-left: 40px;
+    font-size: 1.5rem;
+}
+
+.project_lead2{
+    margin-top: 40px;
+    display: flex;
+    column-gap: 5px;
+    padding-left: 40px;
+}
+
+.my_image2{
+    width: 1fr;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px none red;
+    margin-left: 10px;
+    background-image: url(./Assets/my_first_image_project_trial.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+.my_image2:hover{
+    animation-name: profile2;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    /* animation-iteration-count: infinite; */
+    animation-delay: 0s;
+}
+
+
+@keyframes profile2 {
+    30%{
+        transform: translate(480px);
+    }
+
+    80%{
+        transform: scale(0.9);
+    }
+    
+}
+
+@media (width<1024px){
+    *{
+        overflow-y: visible;
+    }
+    .navbar{
+        display: flex;
+        width: auto;
+
+        .logo{
+            display: inline-block;
+            font-size: large;
+        }
+    }
+
+    .link{
+        display: none;
+        margin-left: -50px;
+        .text-decoration{
+            font-size: 8px;
+            width: auto;
+        }
+    }
+
+    .text-decoration:hover{
+        color: blue;
+    }
+    .dropdown{
+       display: inline-block;
+       margin-left: 200px;
+       .menu{
+        width: auto;
+       }
+       a{
+        font-size: 10px;
+        margin-left: -10px;
+       }
+    }
+     .dropdown:hover .content{
+     display: block;
+
+      }
+
+    .main{
+        display: none;
+
+    }
+    .hide{
+        display: none;
+    }
+  .parent{
+    display: grid;
+    height: auto;
+  }
+   .my_image2{
+    width: auto;
+    height: 250px;
+   }
+   
+   
+  }
+ 
+

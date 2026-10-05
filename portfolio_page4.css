@@ -1,0 +1,435 @@
+/*  */
+
+.dropdown{
+  display: none;
+}
+.button{
+  /* background-color: hsl(0, 0%, 80%); */
+  color: black;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.dropdown a{
+    font-size: medium;
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.content{
+  display: none;
+  position: absolute;
+  /* background-color: hsl(0, 0%, 95%); */
+
+  background-color: black;
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsl(0, 0%, 0.8);
+}
+.dropdown:hover .content{
+  display: block;
+
+}
+.dropdown a:hover{
+  background-color: hsl(0, 0%, 70%);
+
+}
+/*  */
+*{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+.navbar{
+    width: auto;
+    height: 12vh;
+    background-color: hwb(30 90% 2%);
+    display: flex;
+    color: black;
+    align-items: center;
+    padding-left: 30px;
+    font-family: ayobami;
+    font-size: 2rem;  
+    
+}
+
+body{
+    background-color: hsla(26, 27%, 70%, 0.493);
+}
+
+@font-face {
+    font-family: ayobami;
+    src: url(./Assets/BlackOpsOne-Regular.ttf);
+}
+
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 445px;
+    
+}
+
+.text-decoration{
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    font-size: 1rem;
+    font-family: ayobami;
+    
+}
+
+.text-decoration:hover{
+  color: blue;
+    }
+
+@font-face {
+    font-family: daniel;
+    src: url(./Assets/ChangaOne-Italic.ttf);
+}
+
+@font-face {
+    font-family: dan;
+    src: url(./Assets/ChangaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: emirate;
+    src: url(./Assets/Emirates-Bold.ttf);
+}
+
+.mode_flex{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 40px;
+    .light{
+        color:  white;
+    }
+}
+
+.my_projects{
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family:emirate;
+    font-style: normal;
+}
+
+.selected{
+    font-family: ayobami;
+    margin-left: 40px;
+    letter-spacing: 0.2rem;
+}
+.here{
+    margin-left: 40px;
+    line-height: 20px;
+    font-family: emirate;
+    font-size: large;
+    overflow: hidden;
+}
+
+.parent{
+    margin-left: 40px;
+    margin-right: 40px;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,270px);
+    column-gap: 30px;
+    row-gap: 30px;
+    .child{
+        padding-left: 30px;
+        padding-top: 30px;
+        border: none solid blue;
+        text-decoration: none;
+        color: whitesmoke;
+        border-radius: 20px;
+    }
+    .one{
+        overflow-y: hidden;
+        background-image: url(./Assets/barchart.jpg);
+        background-position: center;
+        background-size: cover;
+        .zero_one{
+          font-size: 1.2rem;
+          font-weight: 400;
+          font-family: emirate;
+        }
+
+        .state_sales{
+            font-size: 2rem;
+            margin-top: 20px;
+            font-family: emirate;
+        }
+        .powerbi{
+            font-style: normal;
+            font-weight: 600;
+            font-family: emirate;
+        }
+        .circle_one{
+            
+            color: white;
+            align-content: center;
+            width: 80px;
+            height: 80px;
+            margin-bottom: px;
+            border: 1px white solid;
+            margin-left: 480px;
+            border-radius: 50%;
+            .arrow{
+                margin-left: 25px;
+                width: 40px;
+            }
+        }
+
+    }
+    .two{
+        overflow-y: hidden;
+        background-image: url(./Assets/barchart2.jpg);
+        background-position: center;
+        background-size: cover;
+        .zero_one{
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: emirate;
+        }
+        .state_sales{
+            font-size: 2rem;
+            margin-top: 20px;
+            font-family: emirate;
+        }
+        .powerbi{
+            font-style: normal;
+            font-weight: 600;
+            font-family: emirate;
+        }
+        .circle_one{
+            
+            color: white;
+            align-content: center;
+            width: 80px;
+            height: 80px;
+            margin-bottom: px;
+            border: 1px white solid;
+            margin-left: 480px;
+            border-radius: 50%;
+            .arrow{
+                margin-left: 25px;
+                width: 40px;
+            }
+        }
+    }
+    .three{
+         overflow-y: hidden;
+        background-image: url(./Assets/webpage.jpg);
+        background-position: center;
+        background-size: cover;
+        .zero_one{
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: emirate;
+        }
+        .state_sales{
+            font-size: 2rem;
+            margin-top: 20px;
+            font-family: emirate;
+        }
+        .powerbi{
+            font-style: normal;
+            font-weight: 600;
+            font-family: emirate;
+        }
+        .circle_one{
+            
+            color: white;
+            align-content: center;
+            width: 80px;
+            height: 80px;
+            margin-bottom: px;
+            border: 1px white solid;
+            margin-left: 480px;
+            border-radius: 50%;
+            .arrow{
+                margin-left: 25px;
+                width: 40px;
+            }
+        }
+    }
+    .four{
+         overflow-y: hidden;
+        background-image: url(./Assets/student_data2.jpg);
+        background-position: center;
+        background-size: cover;
+        .zero_one{
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: emirate;
+        }
+        .state_sales{
+            font-size: 2rem;
+            margin-top: 20px;
+            font-family: emirate;
+        }
+        .powerbi{
+            font-style: normal;
+            font-weight: 600;
+            font-family: emirate;
+        }
+        .circle_one{
+            
+            color: white;
+            align-content: center;
+            width: 80px;
+            height: 80px;
+            border: 1px white solid;
+            margin-left: 480px;
+            border-radius: 50%;
+            .arrow{
+                margin-left: 25px;
+                width: 40px;
+            }
+        }
+    }
+}
+
+.child:hover{
+      transform: scale(0.98);
+}
+
+
+.arrow{
+    animation-name: arrow;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease;
+}
+
+
+.small_circle{
+    display: none;    
+    color: white;
+    align-content: center;
+    width: 60px;
+    height: 60px;
+    border: 1px white solid;
+    /* margin-left: ; */
+    border-radius: 50%;
+small_arrow{
+    margin-left: 25px;
+    width: 20px;
+     }
+  }
+
+  /* this arrow animation work without keyframe due to that i also name the animation-name arrow  */
+.small_arrow{
+    animation-name: arrow;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease;
+}
+
+.line{
+    display: inline;
+}
+
+@keyframes arrow {
+    0%{
+        transform: translate(-50px);
+    }
+    
+     /* 20%{
+        transform: translate(10px);
+
+     } */
+     /* 40%{
+        transform: translate(20px);
+
+        opacity: 0;
+     } */
+     /* 50%{
+        transform: translate(40px);
+        opacity: 0;
+     } */
+    /* 60%{
+        transform: translate(50px);
+
+        opacity: 0;
+     } */
+     /* 70%{
+        transform: translate(60px);
+        opacity: 0;
+     } */
+     /* 80%{
+        transform: translate(60px);
+
+        opacity: 0;
+     } */
+    99.9%{
+        transform: translate(60px);
+        /* opacity: 0; */
+     }
+    100%{
+        opacity: 0;
+     }
+}
+
+
+@media (width<1024px) {
+    *{
+        overflow-y: visible;
+    }
+    .navbar{
+           display: flex;
+           width: auto;
+
+        .logo{
+            display: inline-block;
+            font-size: large;
+        }
+    .link{
+             display: none;
+             margin-left: -50px;
+        .text-decoration{
+                        display: flex;
+                        font-size: 8px;
+
+        }
+        }
+    }
+    .dropdown{
+       display: inline-block;
+       margin-left: 200px;
+       .menu{
+        width: auto;
+       }
+       a{
+        font-size: 10px;
+        margin-left: -10px;
+       }
+    }
+    /* modification */
+    .dropdown:hover .content{
+     display: block;
+
+      }
+      /*  */
+    .parent{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        .circle_one{
+            display: none;
+        }
+    }
+
+    .small_circle{
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+}
+

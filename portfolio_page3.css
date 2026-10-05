@@ -1,0 +1,219 @@
+/*  */
+
+.dropdown{
+  display: none;
+}
+.button{
+  /* background-color: hsl(0, 0%, 80%); */
+  color: black;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.dropdown a{
+    font-size: medium;
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.content{
+  display: none;
+  position: absolute;
+  /* background-color: hsl(0, 0%, 95%); */
+
+  background-color: black;
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsl(0, 0%, 0.8);
+}
+.dropdown:hover .content{
+  display: block;
+
+}
+.dropdown a:hover{
+  background-color: hsl(0, 0%, 70%);
+
+}
+/*  */
+*{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.navbar{
+    width: auto;
+    height: 12vh;
+    background-color: hwb(30 90% 2%);
+    display: flex;
+    color: black;
+    align-items: center;
+    padding-left: 30px;
+    font-family: ayobami;
+    font-size: 2rem;  
+    
+}
+
+body{
+    background-color: hsla(26, 27%, 70%, 0.493);
+}
+
+@font-face {
+    font-family: ayobami;
+    src: url(./Assets/BlackOpsOne-Regular.ttf);
+}
+
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 445px;
+    
+}
+
+.text-decoration{
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    font-size: 1rem;
+    font-family: ayobami;
+    
+}
+
+.text-decoration:hover{
+  color: blue;
+    }
+
+@font-face {
+    font-family: daniel;
+    src: url(./Assets/ChangaOne-Italic.ttf);
+}
+
+@font-face {
+    font-family: dan;
+    src: url(./Assets/ChangaOne-Regular.ttf);
+}
+.mode_flex{
+    display: flex;
+    margin-bottom: 30px;
+    .light{
+        color:  white;
+    }
+}
+.main{
+    margin-top: 10px;
+    margin-left: 40px;
+    .hello{
+        font-size: 2rem;
+        font-weight: 10;
+        /* font-style: normal; */
+        font-family:dan;
+        /* color: hsla(0, 0%, 0%, 0.616); */
+
+    }
+    .heading{
+        /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+        font-family: daniel;
+        font-weight: 0;
+        font-size: 3rem;
+        letter-spacing: 0.1rem;
+    }
+    .what_i_can_Use{
+        font-size: 1.5rem;
+        margin-top: 10px;
+        line-height: 3rem;
+    }
+}
+
+.parent{
+    width: auto;
+    height: 40vh;
+    margin-right: 40px;
+    border: none solid red;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    
+    
+    .child{
+        border: 2px solid hsl(26, 26%, 75%);
+        box-shadow: 2px 5px 5px lightgray;
+    }
+
+    /* .child:hover{
+        box-shadow: none 5px white;
+    } */
+}
+
+.network{
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid hsl(26, 26%, 75%); */
+}
+
+.data{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
+.small_data{
+    margin-left: 10px;
+    margin-top:20px; 
+    font-size: 1.2rem;
+}
+
+.chart{
+    width: 70px;
+    height: 65px;
+    /* border: 1px solid hsl(26, 26%, 75%); */
+}
+
+@media (width<1024px) {
+    *{
+        overflow-y: visible;
+    }
+    .navbar{
+           display: flex;
+           width: auto;
+
+        .logo{
+            display: inline-block;
+            font-size: large;
+        }
+    .link{
+             display: none;
+             margin-left: -50px;
+        .text-decoration{
+                        display: flex;
+                        font-size: 8px;
+
+        }
+        }
+    }
+    .dropdown{
+       display: inline-block;
+       margin-left: 200px;
+       .menu{
+        width: auto;
+       }
+       a{
+        font-size: 10px;
+        margin-left: -10px;
+       }
+    }
+    /* Modification */
+    .dropdown:hover .content{
+     display: block;
+
+      }
+      /*  */
+    .parent{
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,250px);
+    }
+
+}

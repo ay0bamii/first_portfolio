@@ -1,0 +1,212 @@
+.div1{
+    border: 1px solid grey;
+    width: 450px;
+    height: 450px;
+    font-family: dubai;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 10px;
+    font-weight: 0.8px;
+    color: gray;
+    letter-spacing: 5px;
+    background-image: url(https://c.ekstatic.net/ecl/destinations/middle-east/united-arab-emirates/dubai-downtown-skyline-at-sunset-d800x600.jpg?h=7vZ6mr2XU87yHyZCOdmZhw);
+    background-size: cover;
+    background-position: center;
+}
+
+@font-face {
+    font-family: dubai;
+    src: url(./Emirates-Bold.ttf);
+}
+
+.create{
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    letter-spacing: normal;
+}
+
+.button1{
+    width: 60px;
+    border: none;
+    background-color: red;
+    
+}
+
+.div1:hover{
+    box-shadow: 5px 5px 5px grey;
+}
+
+.learnmore{
+letter-spacing:2px;
+font-size: small;
+font-weight: bolder;
+}
+
+.div2{
+    border: 1px solid gray;
+    width: 450px;
+    height: 450px;
+    background-image: url(https://c.ekstatic.net/ecl/food/first-class-dessert-w800x600.jpg?h=Wxf9CC7WhFAck7s5_QF1oA);
+    background-size: cover;
+    background-position: center;
+}
+
+.dubai2{
+    margin-top: 20px;
+    margin-left: 125px;
+    font-family: dubai;
+    font-size: 10px;
+    font-weight: 0.8px;
+    color: gray;
+    letter-spacing: 5px;
+
+}
+
+.create2{
+    margin-left: 140px;
+    font-family: dubai;
+    margin-top: 20px;
+}
+.button2{
+    width: 60px;
+    border: none;
+    background-color: red;
+    margin-left: 160px;
+    
+}
+.learnmore2{
+letter-spacing:2px;
+font-size: small;
+font-weight: lighter;
+margin-left: 150px;
+}
+.div2:hover{
+    box-shadow: 5px 5px 5px grey;
+}
+
+.div3{
+    border: 1px solid gray;
+    width: 450px;
+    height: 450px;
+    background-image: url(https://c.ekstatic.net/ecl/food/business-class-meal-w800x600.jpg?h=MvOq0t5vAseWLn6fdsIGVg);
+    background-size: cover;
+    background-position: center;
+}
+
+.dubai3{
+    margin-top: 20px;
+    margin-left: 125px;
+    font-family: dubai;
+    font-size: 10px;
+    font-weight: 0.8px;
+    color: gray;
+    letter-spacing: 5px;
+
+}
+
+.create3{
+    margin-left: 140px;
+    font-family: dubai;
+    margin-top: 20px;
+}
+.button3{
+    width: 60px;
+    border: none;
+    background-color: red;
+    margin-left: 160px;
+    
+}
+.learnmore3{
+letter-spacing:2px;
+font-size: small;
+font-weight: lighter;
+margin-left: 150px;
+}
+.div3:hover{
+    box-shadow: 5px 5px 5px grey;
+}
+
+.div4{
+    border: 1px solid gray;
+    width: 450px;
+    height: 450px;
+    background-image: url(https://c.ekstatic.net/ecl/food/premium-economy-menu-w800x600.jpg?h=nUi11H3iz4bSSPJ0xdtGxQ);
+    background-size: cover;
+    background-position: center;
+}
+
+.dubai4{
+    margin-top: 20px;
+    margin-left: 125px;
+    font-family: dubai;
+    font-size: 10px;
+    font-weight: 0.8px;
+    color: gray;
+    letter-spacing: 5px;
+
+}
+
+.create4{
+    margin-left: 140px;
+    font-family: dubai;
+    margin-top: 20px;
+}
+.button4{
+    width: 60px;
+    border: none;
+    background-color: red;
+    margin-left: 160px;
+    
+}
+.learnmore4{
+letter-spacing:2px;
+font-size: small;
+font-weight: lighter;
+margin-left: 150px;
+}
+.div4:hover{
+    box-shadow: 5px 5px 5px grey;
+}
+
+.div5{
+    border: 1px solid gray;
+    width: 450px;
+    height: 450px;
+    background-image: url(https://c.ekstatic.net/ecl/food/economy-class-chocolate-dessert-w800x600.jpg?h=8IPeHQHGlgz6DFNMUYc9bQ);
+    background-size: cover;
+    background-position: center;
+}
+
+.dubai5{
+    margin-top: 20px;
+    margin-left: 125px;
+    font-family: dubai;
+    font-size: 10px;
+    font-weight: 0.8px;
+    color: gray;
+    letter-spacing: 5px;
+
+}
+
+.create5{
+    margin-left: 140px;
+    font-family: dubai;
+    margin-top: 20px;
+}
+.button5{
+    width: 60px;
+    border: none;
+    background-color: red;
+    margin-left: 160px;
+    
+}
+.learnmore5{
+letter-spacing:2px;
+font-size: small;
+font-weight: lighter;
+margin-left: 150px;
+}
+.div5:hover{
+    box-shadow: 5px 5px 5px grey;
+}

@@ -1,0 +1,354 @@
+/*  */
+
+.dropdown{
+  display: none;
+}
+.button{
+  /* background-color: hsl(0, 0%, 80%); */
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.dropdown a{
+    font-size: medium;
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.content{
+  display: none;
+  position: absolute;
+  /* background-color: hsl(0, 0%, 95%); */
+
+  background-color: black;
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsl(0, 0%, 0.8);
+}
+.dropdown:hover .content{
+  display: block;
+
+}
+.dropdown a:hover{
+  background-color: hsl(0, 0%, 70%);
+
+}
+/*  */
+*{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    overflow-x: hidden;
+}
+.navbar{
+    width: auto;
+    height: 12vh;
+    /* background-color: hwb(30 90% 2%); */
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-left: 30px;
+    font-family: ayobami;
+    font-size: 2rem;  
+    
+}
+
+body{
+    /* background-color: hsla(26, 27%, 70%, 0.493); */
+    background-color: rgba(0, 0, 0, 0.95);
+
+}
+
+.main{
+    color: white;
+    .in_touch{
+        font-family: daniel;
+        font-size: 18px;
+        margin-top: 50px;
+        margin-left: 50px;
+        letter-spacing: 0.2rem;
+    }
+    .work_together{
+        margin-left: 50px;
+        font-family: emirate;
+        font-weight: bolder;
+        margin-top: -15px;
+        letter-spacing: 0.5rem;
+
+    }
+    .reach_out{
+        margin-top: -10px;
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: lighter;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .contacts{
+            margin-top: 40px;
+            height: auto;
+            width: 600px;
+        .email_link{
+            display: flex;
+            text-decoration: none;
+            margin-left: 50px;
+            color: white;
+            .ayobami_email{
+             margin-left: 15px;
+             /* margin-top: 3px; */
+             font-size: 20px;
+             font-family: emirate;
+            }
+            
+        }
+    }
+        .email_link2{
+            display: inline;
+            text-decoration: none;
+            margin-left: 50px;
+            color: white;
+            .ayobami_email{
+            margin-top: 20px;
+             margin-left: 15px;
+             font-size: 20px;
+             font-family: emirate;
+
+            }
+            .location{
+                margin-top: 20px;
+            }
+        }
+
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+.send_message{
+    display: flex;
+    /* align-content: center; */
+    border: 1px solid white;
+    width: 240px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 45px;
+    .send_message1{
+        margin-top: 18px;
+        margin-left: 25px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .last_arrow{
+        margin-left: 5px;
+        margin-top: 8px;
+    }
+}
+
+.send_message:hover{
+    border: none;
+    transform: scale(1.08)
+}
+
+.side_message{
+    width: 50%;
+    border: 1px solid white;
+    margin-left: 50%;
+    margin-top: -50px;
+
+}
+.aside{
+    width: auto;
+    margin-right: 30px;
+    height: auto;
+    border: none solid red;
+    margin-left: 850px;
+    margin-top: -410px;
+    
+}
+
+.label{
+    color: white;
+    font-size: 20px;
+    font-family: emirate;
+    display: block;
+    margin-top: 10px;
+}
+
+.name_input{
+    padding-left: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.363);
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.685);
+    width: 95%;
+    height: 50px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+
+.name_input2{
+    padding-left: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.363);
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.685);
+    width: 95%;
+    height: 100px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+.last_button_link{
+    text-decoration: none;
+}
+.last_button{
+    align-content: center;
+    padding-left: 170px;
+    width: auto;
+    height: 10vh;
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 21px;
+    color: white;
+}
+
+.last_button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.line{
+ margin-left: 40px;
+margin-right: 40px;
+margin-top: 30px;
+}
+.copy{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.copyright{
+    width: 20px;
+    height: 20px;
+}
+.this_year{
+    color: white;
+}
+
+
+@font-face {
+    font-family: ayobami;
+    src: url(./Assets/BlackOpsOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: daniel;
+    src: url(./Assets/ChangaOne-Italic.ttf);
+}
+
+@font-face {
+    font-family: dan;
+    src: url(./Assets/ChangaOne-Regular.ttf);
+}
+@font-face {
+    font-family: emirate;
+    src: url(./Assets/Emirates-Bold.ttf);
+}
+
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 445px;
+    
+}
+
+.text-decoration{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 1rem;
+    font-family: ayobami;
+    
+}
+
+.text-decoration:hover{
+  color: blue;
+}
+
+
+
+@media (width<1024px) {
+    *{
+        overflow-y: visible;
+    }
+    .navbar{
+           display: flex;
+           width: auto;
+
+        .logo{
+            display: inline-block;
+            font-size: large;
+        }
+    .link{
+             display: none;
+             margin-left: -50px;
+        .text-decoration{
+                        display: flex;
+                        font-size: 8px;
+
+        }
+        }
+    }
+    .dropdown{
+       display: inline-block;
+       margin-left: 200px;
+       .menu{
+        width: auto;
+       }
+       a{
+        font-size: 10px;
+        margin-left: -10px;
+       }
+    }
+    /* modification */
+    .dropdown:hover .content{
+     display: block;
+
+      }
+      /*  */
+    .send_message{
+       display: none;
+    }
+    .aside{
+    width: auto;
+    margin-right: 30px;
+    height: auto;
+    border: none solid red;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.last_button_link{
+    text-decoration: none;
+}
+.last_button{
+    align-content: center;
+    padding-left: 10px;
+    width: 150px;
+    height: 8vh;
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 21px;
+    color: white;
+}
+
+.last_button:hover{
+    background-color: white;
+    color: black;
+
+}
+}
